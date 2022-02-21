@@ -24,4 +24,4 @@ To run your tests
 
 
 Reverse array 
-(revers array)[https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/revers-array]
+[revers array](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/revers-array)
