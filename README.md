@@ -20,4 +20,8 @@ To run your tests
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.  
+
+
+Reverse array 
+(revers array)[https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/revers-array]
