@@ -28,7 +28,8 @@ To run your tests
 Reverse array 
 [revers array](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/revers-array)  
 insertShiftArray
-[insertShiftArray](https://github.com/Oubaida996/data-structures-and-algorithms/tree/insertShiftArray/javascript/code-challenges/insertShiftArray)
+[insertShiftArray](https://github.com/Oubaida996/data-structures-and-algorithms/tree/insertShiftArray/javascript/code-challenges/insertShiftArray)  
+binary search
 [binary search](https://github.com/Oubaida996/data-structures-and-algorithms/tree/array-array-binary-search/javascript/code-challenges/array-binary-search)
 
 
