@@ -30,7 +30,7 @@ Reverse array
 insertShiftArray
 [insertShiftArray](https://github.com/Oubaida996/data-structures-and-algorithms/tree/insertShiftArray/javascript/code-challenges/insertShiftArray)  
 binary search
-[binary search](https://github.com/Oubaida996/data-structures-and-algorithms/tree/array-array-binary-search/javascript/code-challenges/array-binary-search)
+[binary search](https://github.com/Oubaida996/data-structures-and-algorithms/tree/array-array-binary-search/javascript/code-challenges/array-binary-search)  
 Linked-list
 [Linked-list](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/linked-list)
 
