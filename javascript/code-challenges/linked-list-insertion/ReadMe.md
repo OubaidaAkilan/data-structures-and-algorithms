@@ -18,4 +18,7 @@ insert a node after the last node of the linked list
 
 ## Solution
 
-created new methods for the linked list including  append and insertbefore and insertafter first method to add value at the end of the list.
+created new methods for the linked list including  append and insertbefore and insertafter first method to add value at the end of the list.  
+
+
+Assistant by :Osama Abdallah.
