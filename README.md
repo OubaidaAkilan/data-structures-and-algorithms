@@ -35,7 +35,7 @@ Linked-list
 [Linked-list](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/linked-list)  
 linked-list-insertion
 [linked-list-insertion](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/linked-list-insertion)  
-linked-list-kth  
+linked-list-kth 
 [linked-list-kth](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/linked-list-kth)  
 
 
