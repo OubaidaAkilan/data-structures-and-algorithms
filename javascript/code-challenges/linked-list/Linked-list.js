@@ -19,7 +19,7 @@ class LinkedList {
             this.head = node;
         }
 
-    }
+    };
 
     nodeIsExist(value) {
         const node = new Node(value);
@@ -52,10 +52,13 @@ class LinkedList {
            return res ="Linked list is empty"; 
         }else{
             let currentNode = this.head;
-            while(currentNode.next){
+            while(currentNode){
                 res = res + `{${currentNode.value}} -> `;
                 currentNode =currentNode.next;
-                if(currentNode.next === null){
+                console.log(currentNode);
+                if (currentNode === null) {
+                    return res += `NULL`;
+                }else if(currentNode.next === null){
                     res =res+`{${currentNode.value}} -> `+`NULL`;
                     return res;
                 }
