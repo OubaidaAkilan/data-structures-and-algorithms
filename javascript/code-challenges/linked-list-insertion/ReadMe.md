@@ -10,11 +10,13 @@ insert a node after the last node of the linked list
 
 ## Whiteboard Process  
 
-////
+![linkedListInsertion](./assets/Linked-list-insertion.jpg)
 
 ## Approach & Efficiency
 
-////
+- Big O 
+   - Time <--- O(2)
+   - Space <----- O(1)
 
 ## Solution
 
