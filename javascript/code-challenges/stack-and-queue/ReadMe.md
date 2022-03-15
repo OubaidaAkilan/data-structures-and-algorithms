@@ -7,8 +7,8 @@ Using a Linked List as the underlying data storage mechanism, implement both a S
 
 
 # Big O
-Time <--- 
-Space <----- 
+Time <---O(n)       
+Space <-----O(n) 
 
 
 # Solution  
