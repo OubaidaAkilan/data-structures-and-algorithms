@@ -23,19 +23,22 @@ class Stack {
     }
 
     pop() {
+        let nodeDelet;
         if (!this.top) {
-            return null;
+            return 0;
         } else {
+            nodeDelet =this.top.value
             let index = this.count;
             this.count--;
             index = index - this.count;
             // console.log('index', index);
+            
             while (index) {
                 let nextNode = this.top.next;
                 // console.log('nextNode' ,nextNode);
                 if (!nextNode) {
                     this.top = 0;
-                    return 0;
+                    break;
                 } else {
                     this.top = nextNode;
                     index--;
@@ -45,13 +48,13 @@ class Stack {
             }
         }
         // console.log('this.top.value', this.top.value);
-        return this.top.value;
+        return nodeDelet;
     }
 
     peek() {
         if (!this.top) {
             // console.log('peek', this.top);
-            return this.top = 0;
+            return  0;
         } else {
             return this.top.value;
         }
