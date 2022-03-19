@@ -17,6 +17,11 @@ class Queue {
         this.linkedStorage.insert(value);
         this.back = this.linkedStorage.head;
         // console.log(" this.back =this.linkedStorage.head:", this.back);
+        let currentNode =this.back;
+        while (currentNode) {
+            this.front=currentNode;
+            currentNode =currentNode.next;
+        }
     }
 
     dequeue() {

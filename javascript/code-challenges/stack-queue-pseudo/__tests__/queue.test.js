@@ -15,15 +15,18 @@ describe('testing the Queue', () => {
     it('testing enqueue to the Queue',()=>{
         let newQueue = new Queue();
         newQueue.enqueue(1);
-        expect(newQueue.back.value).toEqual(1)
-        newQueue.enqueue(2);
-        expect(newQueue.back.value).toEqual(2)
+        expect(newQueue.enqueue(1)).toEqual(1)
+        // newQueue.enqueue(2);
+        expect(newQueue.enqueue(2)).toEqual(1)
+        expect(newQueue.isEmpty()).toEqual(false);
     });
 
     it('testing dequeue from the Queue',()=>{
         let newQueue = new Queue();
         newQueue.enqueue(1);
         expect(newQueue.dequeue()).toEqual(1);
+        expect(newQueue.isEmpty()).toEqual(true);
+
     });
 
     it('testing peek from the Queue',()=>{
