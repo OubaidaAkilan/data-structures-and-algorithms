@@ -9,7 +9,8 @@ Implement a Queue using two Stacks.
 # Big O
 Time <---O(n)       
 Space <-----O(n) 
-
+# whiteboard  
+![](./assets/queue-pseudo.jpg)
 
 # Solution  
 Create a new class called pseudo queue.  
