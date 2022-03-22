@@ -41,5 +41,7 @@ stack and queue class 10
 [stack-and-queue](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/stack-and-queue)  
 pseduo queue class 11 
 [pseduo queue](https://github.com/Oubaida996/data-structures-and-algorithms/blob/main/javascript/code-challenges/stack-queue-pseudo/ReadMe.md) 
+Animal Shelter class 12 
+[Animal Shelter](https://github.com/Oubaida996/data-structures-and-algorithms/blob/main/javascript/code-challenges/stack-queue-animal-shelter/ReadMe.md) 
 
 
