@@ -44,7 +44,7 @@ pseduo queue class 11
 Animal Shelter class 12 
 [Animal Shelter](https://github.com/Oubaida996/data-structures-and-algorithms/blob/main/javascript/code-challenges/stack-queue-animal-shelter/ReadMe.md)     
 stack-queue-brackets class 13 
-[Animal Shelter](https://github.com/Oubaida996/data-structures-and-algorithms/tree/stack-queue-brackets/javascript/code-challenges/stack-queue-brackets)
+[stack-queue-brackets](https://github.com/Oubaida996/data-structures-and-algorithms/tree/stack-queue-brackets/javascript/code-challenges/stack-queue-brackets)
 
 
 
