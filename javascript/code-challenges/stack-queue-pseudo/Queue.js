@@ -1,4 +1,5 @@
 'use strict';
+
 const Stack = require('./Stack');
 class Queue {
     constructor() {
@@ -29,7 +30,6 @@ class Queue {
         }
         return this.pointer.value;//front inside queue 
     }
-
 
     dequeue() {
         if (!this.count) {
