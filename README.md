@@ -44,11 +44,11 @@ pseduo queue class 11
 Animal Shelter class 12 
 [Animal Shelter](https://github.com/Oubaida996/data-structures-and-algorithms/blob/main/javascript/code-challenges/stack-queue-animal-shelter/ReadMe.md)     
 stack-queue-brackets class 13 
-[stack-queue-brackets](https://github.com/Oubaida996/data-structures-and-algorithms/tree/stack-queue-brackets/javascript/code-challenges/stack-queue-brackets)
+[stack-queue-brackets](https://github.com/Oubaida996/data-structures-and-algorithms/tree/stack-queue-brackets/javascript/code-challenges/stack-queue-brackets)  
 Binary-Search-Tree class 15 
-[Binary-Search-Tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/binary-search-tree)
+[Binary-Search-Tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/binary-search-tree)  
 Max-Tree class 16
-[Max-Tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/max-tree)
+[Max-Tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/max-tree)  
 
 
 
