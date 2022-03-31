@@ -48,7 +48,9 @@ stack-queue-brackets class 13
 Binary-Search-Tree class 15 
 [Binary-Search-Tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/binary-search-tree)  
 Max-Tree class 16
-[Max-Tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/max-tree)  
+[Max-Tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/max-tree)     
+breadth-first-traversal class 17
+[Breadth-First-Traversal](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/max-tree)  
 
 
 
