@@ -51,6 +51,8 @@ Max-Tree class 16
 [Max-Tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/max-tree)     
 breadth-first-traversal class 17
 [Breadth-First-Traversal](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/tree-breadth-first)  
+Fizz-Buzz-k-ary-tree class 18
+[Fizz-Buzz-k-ary-tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/k-ary-tree-fizz-buzz) 
 
 
 
