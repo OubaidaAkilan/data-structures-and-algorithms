@@ -1,15 +1,15 @@
 {
-  "name": "mergesort",
-  "version": "1.0.0",
-  "description": "",
-  "main": "mergeSort.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "jest": "^28.0.2"
-  }
+    "name": "mergesort",
+    "version": "1.0.0",
+    "description": "",
+    "main": "mergeSort.js",
+    "scripts": {
+        "test": "jest --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^28.0.2"
+    }
 }
