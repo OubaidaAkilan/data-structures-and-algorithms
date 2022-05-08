@@ -1,0 +1,15 @@
+{
+    "name": "quicksort",
+    "version": "1.0.0",
+    "description": "## Quick Sort <!-- Description of the challenge --> - To Write and implement a quick sort method to sort an array by inspecting the elements from left to right and placing larger elements to the right of the smaller elements.",
+    "main": "quickSort.js",
+    "scripts": {
+        "test": "jest --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^28.1.0"
+    }
+}
