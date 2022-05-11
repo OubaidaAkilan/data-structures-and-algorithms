@@ -1,37 +1,36 @@
 'use strict';
 
 const arr = [31, 27, 28, 42, 13, 8, 11, 30, 17, 41, 15, 43, 1, 36, 9, 16, 20, 35, 48, 37, 7, 26, 34, 21, 22, 6, 29, 32, 49, 10, 12, 19, 24, 38, 5, 14, 44, 40, 3, 50, 46, 25, 18, 33, 47, 4, 45, 39, 23, 2];
+// const arr = [8, 4, 23, 42, 16, 15];
 
-const merge = (left, right, arr) => {
 
-    let i = 0;
-    let j = 0;
-    let k = 0;
-
-    while (i < left.length && j < right.length) {
-        if (left[i] <= right[j]) {
-            arr[k] = left[i];
+const merge = (array1, array2) => {
+    let combined = []
+    let i = 0
+    let j = 0
+    while (i < array1.length && j < array2.length) {
+        if (array1[i] < array2[j]) {
+            combined.push(array1[i])
             i++
         } else {
-            arr[k] = right[j];
+            combined.push(array2[j])
             j++
         }
-        k++
     }
-    if (i === left.length) {
-        arr[k] = right[j];
-        j++;
-        k++;
-    } else {
-        arr[k] = left[i];
-        i++;
-        k++;
+    while (i < array1.length) {
+        combined.push(array1[i])
+        i++
     }
-};
+    while (j < array2.length) {
+        combined.push(array2[j])
+        j++
+    }
+    return combined;
+}
 
 const mergeSort = (arr) => {
 
-    if (arr.length === 0) {
+    if (arr.length === 1) {
         return arr;
     } else {
 
@@ -42,14 +41,19 @@ const mergeSort = (arr) => {
             let left = arr.slice(0, mid);
             let right = arr.slice(mid);
 
-            mergeSort(left);
-            mergeSort(right);
-            merge(left, right, arr);
+            let leftSortArr = mergeSort(left);
+            let rightSortArr = mergeSort(right);
+
+
+            return merge(leftSortArr, rightSortArr);
         }
     }
-    return arr;
+
 };
 
 console.log(mergeSort(arr));
 
 module.exports = mergeSort;
+
+
+
