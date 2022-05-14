@@ -3,34 +3,38 @@
 
 const HashMap = require('../HashTable.js');
 
-
+const testHash = new HashMap(60);
 
 describe('test for hash table or map', () => {
 
-    const testHash = new HashMap(60);
+    it('test the keys method', () => {
+        testHash.set('ahmad', 'superMan');
+        testHash.set('omar', 'supiderMan');
+        testHash.set('ali', 'batMan');
+        expect(testHash.keys()).toEqual([33, 49, 50]);
+
+    });
+
 
     it('test the set method', () => {
-        testHash.set('ahmad', 'superMan');
+        // testHash.set('ahmad', 'superMan');
         expect(testHash.get('ahmad').ahmad).toEqual('superMan');
 
     });
 
-
-    it('test methods', () => {
-        testHash.set('omar', 'supiderMan');
-        // testHash.set('omar', 'batMan');
+    it('test the get method', () => {
+        // testHash.set('omar', 'supiderMan');
+        console.log(testHash.get('omar').omar);
         expect(testHash.get('omar').omar).toEqual('supiderMan');
-        expect(testHash.contains('omar')).toEqual(true);
-        expect(testHash.contains('d')).toEqual(false);
-        // console.log(testHash.keys());
-        expect(testHash.keys()).toEqual([33, 49]);
 
     });
 
 
 
-
-
+    it('test the contains method', () => {
+        expect(testHash.contains('ali')).toEqual(true);
+        expect(testHash.contains('d')).toEqual(false);
+    });
 
 });
 

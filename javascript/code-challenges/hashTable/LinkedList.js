@@ -19,12 +19,12 @@ module.exports = class LinkedList {
         }
 
         currentNode.next = node;
-        console.log(currentNode);
+
     }
 
     get(key) {
         let currentNode = this.head;
-        while (currentNode.next) {
+        while (currentNode) {
             if (key in currentNode.value) {
                 return currentNode.value;
             }

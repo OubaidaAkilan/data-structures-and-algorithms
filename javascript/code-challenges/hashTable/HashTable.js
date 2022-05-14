@@ -45,10 +45,11 @@ class HashMap {
     contains(key) {
         let hashIndex = this.hash(key);
         // console.log({ hashIndex });
-        // console.log(' this.map[hashIndex] ', this.map[hashIndex]);// undifind if the hashIndex does not exist in the hash table
+        // console.log(' this.map[hashIndex] ', this.map[46]);// undifind if the hashIndex does not exist in the hash table
 
         if (this.map[hashIndex]) {
             let isExist = this.map[hashIndex].get(key);
+            console.log({ isExist });
             if (isExist == 'this item is not exist') {
                 return false;
             } else {
@@ -76,15 +77,16 @@ class HashMap {
 }
 
 
-const hashmap01 = new HashMap(60);
-hashmap01.set('Razan', 'Isnstructor');
-hashmap01.set('Batool', 'TA');
-hashmap01.set('Mohammad', 'Learner');
-hashmap01.set('Salam', 'Learner');
-hashmap01.set('Salam', 'ssss');
+// const hashmap01 = new HashMap(60);
+// hashmap01.set('Razan', 'Isnstructor');
+// hashmap01.set('Batool', 'TA');
+// hashmap01.set('Mohammad', 'Learner');
+// hashmap01.set('Salam', 'Learner');
+// hashmap01.set('Salam', 'ssss');
 
-console.log(hashmap01.keys());
-// console.log(hashmap01.contains('Mohammad'));
+// console.log(hashmap01);
+// console.log(hashmap01.keys());
+// console.log(hashmap01.contains('Razan'));
 
 // console.log(hashmap01.map[32]);
 // console.log(hashmap01.map[51]);
