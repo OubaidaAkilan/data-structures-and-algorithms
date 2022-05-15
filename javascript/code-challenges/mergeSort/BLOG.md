@@ -1,8 +1,8 @@
 # Code challenge 26:
 
-## Insertion Sort
+## merge Sort
 <!-- Description of the challenge -->
-- Write and implement a n insertion sort method to to sort an array by inspecting the elements from left to right and placing larger elements to the right of the smaller elements.  
+- Write and implement a n merge sort method to to sort an array by inspecting the elements from left to right and placing larger elements to the right of the smaller elements.  
 
 
 ## Pseudocode  
