@@ -20,6 +20,24 @@ contains
 
 ## Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->  
-### Big O
-    space: o(1)  
-    time:o(1)
+### Big O  
+     set method:    
+      space: o(n)  
+      time:o(n)
+      
+      get method:    
+      space: o(1)  
+      time:o(1)
+      
+      contains method:    
+      space: o(1)  
+      time:o(1)
+      
+      keys method:    
+      space: o(n)  
+      time:o(n)
+      
+      keys method:    
+      space: o(n)  
+      time:o(n)
+      
