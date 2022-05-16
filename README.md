@@ -59,8 +59,10 @@ Merge-Sort-Array class 27
 [Merge-Sort-Array](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/mergeSort)  
 Quick-Sort-Array class 28
 [Quick-Sort-Array](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/quickSort)    
-Hash-Table class 31
-[Hash-Table](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hashTable)
+Hash-Table class 30
+[Hash-Table](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hashTable)  
+HashMapRepeatedWords class 31
+[Hash-Map-Repeated-Words](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hashTable)
 
 
 
