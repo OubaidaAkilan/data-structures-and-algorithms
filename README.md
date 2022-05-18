@@ -62,7 +62,9 @@ Quick-Sort-Array class 28
 Hash-Table class 30
 [Hash-Table](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hashTable)  
 HashMapRepeatedWords class 31
-[Hash-Map-Repeated-Words](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hashmap-repeated-word)
+[Hash-Map-Repeated-Words](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hashmap-repeated-word)  
+HashMapInsertionTree class 32
+[Hash-Map-insertion-tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree-insertion)
 
 
 
