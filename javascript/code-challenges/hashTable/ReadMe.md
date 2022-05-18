@@ -21,23 +21,23 @@ contains
 ## Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->  
 ### Big O  
-     set method:    
+     set method: in the method we use for loop to iteration on index so the complexity is
       space: o(n)  
       time:o(n)
       
-      get method:    
+      get method:    in the method we use idetify index in array because we hasd the data and every element 
+      has a spacific key to get it so the complexity is
       space: o(1)  
       time:o(1)
       
-      contains method:    
+      contains method:  in the method we use the pervious get method that  identify
+      index in array because we hasd the data and every element 
+      has a spacific key to get it so the complexity is   
       space: o(1)  
       time:o(1)
       
-      keys method:    
+      keys method: in the method we use for loop to iteration on index so the complexity is
       space: o(n)  
       time:o(n)
       
-      keys method:    
-      space: o(n)  
-      time:o(n)
-      
+    
