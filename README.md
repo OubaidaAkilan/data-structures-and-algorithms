@@ -64,7 +64,9 @@ Hash-Table class 30
 HashMapRepeatedWords class 31
 [Hash-Map-Repeated-Words](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hashmap-repeated-word)  
 HashMapInsertionTree class 32
-[Hash-Map-insertion-tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree-insertion)
+[Hash-Map-insertion-tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree-insertion)    
+HashMapInsertionTree class 33
+[Hash-Map-insertion-tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hasmap-left-join)
 
 
 
