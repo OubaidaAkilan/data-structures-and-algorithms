@@ -40,6 +40,33 @@ linked-list-kth
 stack and queue class 10 
 [stack-and-queue](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/stack-and-queue)  
 pseduo queue class 11 
-[pseduo queue](https://github.com/Oubaida996/data-structures-and-algorithms/blob/main/javascript/code-challenges/stack-queue-pseudo/ReadMe.md) 
+[pseduo queue](https://github.com/Oubaida996/data-structures-and-algorithms/blob/main/javascript/code-challenges/stack-queue-pseudo/ReadMe.md)   
+Animal Shelter class 12 
+[Animal Shelter](https://github.com/Oubaida996/data-structures-and-algorithms/blob/main/javascript/code-challenges/stack-queue-animal-shelter/ReadMe.md)     
+stack-queue-brackets class 13 
+[stack-queue-brackets](https://github.com/Oubaida996/data-structures-and-algorithms/tree/stack-queue-brackets/javascript/code-challenges/stack-queue-brackets)  
+Binary-Search-Tree class 15 
+[Binary-Search-Tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/binary-search-tree)  
+Max-Tree class 16
+[Max-Tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/max-tree)     
+breadth-first-traversal class 17
+[Breadth-First-Traversal](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/tree-breadth-first)  
+Fizz-Buzz-k-ary-tree class 18
+[Fizz-Buzz-k-ary-tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree/k-ary-tree-fizz-buzz)   
+Insertion-Sort-Array class 26
+[Insertion-Sort-Array](https://github.com/Oubaida996/data-structures-and-algorithms/blob/insertion-sort/javascript/code-challenges/insertionSort/Blog.md)  
+Merge-Sort-Array class 27 
+[Merge-Sort-Array](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/mergeSort)  
+Quick-Sort-Array class 28
+[Quick-Sort-Array](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/quickSort)    
+Hash-Table class 30
+[Hash-Table](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hashTable)  
+HashMapRepeatedWords class 31
+[Hash-Map-Repeated-Words](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hashmap-repeated-word)  
+HashMapInsertionTree class 32
+[Hash-Map-insertion-tree](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/tree-insertion)    
+HashMapInsertionTree class 33
+[Hash-Map-left-join](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hasmap-left-join)
+
 
 
