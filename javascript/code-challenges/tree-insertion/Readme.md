@@ -18,8 +18,8 @@
 
 
 - Big O 
-   - Time <--- O(n)
-   - Space <----- O(n)
+   - Time <--- O(n) we are iterating throught an array  
+   - Space <----- O(n)  we created an array of length n  
 
 ---------------------------
 ### solution  
