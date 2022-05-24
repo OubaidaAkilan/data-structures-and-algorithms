@@ -22,5 +22,4 @@ describe("Repeated Word Test", () => {
         expect(repeatedWord(str3)).toEqual("summer");
     });
 
-
 });
