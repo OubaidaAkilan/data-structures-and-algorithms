@@ -2,7 +2,7 @@
 
 function repeatedWord(str) {
 
-    const paragraph = str.split(' ');
+    const paragraph = str.split(/[, ]+/);
     let array = [];
     for (let i = 0; i < paragraph.length; i++) {
         let find = paragraph[i];
