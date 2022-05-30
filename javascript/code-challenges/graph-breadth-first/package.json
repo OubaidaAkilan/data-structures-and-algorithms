@@ -1,0 +1,15 @@
+{
+    "name": "graph-breadth-first",
+    "version": "1.0.0",
+    "description": "## Graph-Breadth-First <!-- Description of the challenge --> - To write the following method for the Graph class:",
+    "main": "graph-breadth-first.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^28.1.0"
+    }
+}
