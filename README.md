@@ -68,7 +68,9 @@ HashMapInsertionTree class 32
 HashMapInsertionTree class 33
 [Hash-Map-left-join](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/hasmap-left-join)  
 Graph class 35
-[Graph](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/graph)
+[Graph](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/graph)  
+Graph class 36
+[Graph-Beardth-First](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/graph-breadth-first)
 
 
 
