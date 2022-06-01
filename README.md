@@ -70,7 +70,8 @@ HashMapInsertionTree class 33
 Graph class 35
 [Graph](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/graph)  
 Graph class 36
-[Graph-Beardth-First](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/graph-breadth-first)
-
+[Graph-Beardth-First](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/graph-breadth-first)    
+Graph class 37
+[Graph-Business-Trip](https://github.com/Oubaida996/data-structures-and-algorithms/tree/main/javascript/code-challenges/graph-business-trip)
 
 
