@@ -21,12 +21,12 @@ class Graph {
         this.adjacencyList.set(vertex, []);
     }
 
-    addDirectedEdge(start, end) {
+    addDirectedEdge(start, end, weight = 0) {
         if (!this.adjacencyList.has(start) || !this.adjacencyList.has(end)) {
             console.log("Vertex dose not exist or invalid vertex");
         }
         const list = this.adjacencyList.get(start);
-        list.push(new Edge(end));
+        list.push(new Edge(end, weight));
     }
 
     display() {
@@ -67,41 +67,24 @@ class Graph {
         }
     }
 
-    BreadthFirst(node) {
-        const queue = [];
-        const visited = [];
 
-        queue.unshift(node);
-        visited.push(node);
-        while (queue.length) {
-            const current = queue.pop();
-            const neighbors = this.getNeighbors(current);
-            for (const neighbor of neighbors) {
-                const vertex = neighbor.vertex;
-                if (visited.includes(vertex)) {
-                    continue;
-                } else {
-                    visited.push(vertex);
-                    queue.unshift(vertex);
-                }
-            }
-        }
-        let result = visited.map((el) => {
-            return el.value;
-        });
-        return result.toString();
-    }
 
     businessTrip(graph, arr) {
+
+        console.log(graph.adjacencyList.has(arr[0]));
         let totalcost = 0;
         if (graph.adjacencyList.has(arr[0])) {
-            let list = graph.adjacencyList.get(arr[0]);
-            for (let i = 0; i < arr.length; i++) {
+            // console.log(list);
+            for (let i = 0; i < arr.length - 1; i++) {
+                let list = graph.adjacencyList.get(arr[i]);
                 let flag = false;
-                for (const { vertex, wieght } of list) {
-                    if (vertex == arr[i]) {
+                for (const { vertex, weight } of list) {
+                    console.log(weight);
+                    console.log(vertex);
+                    if (vertex == arr[i + 1]) {
+
                         flag = true;
-                        totalcost += wieght;
+                        totalcost += weight;
                         break;
                     }
                 }
@@ -115,5 +98,22 @@ class Graph {
         return [true, totalcost];
     }
 }
+const myGraph = new Graph();
+
+
+
+
+console.log(myGraph.businessTrip(myGraph, ['amman', 'irbid', 'mafraq', 'zarqa', 'aqaba', 'al-jafr']));
+
+
 
 module.exports = { Vertex, Edge, Graph }
+
+
+
+
+
+
+
+
+
